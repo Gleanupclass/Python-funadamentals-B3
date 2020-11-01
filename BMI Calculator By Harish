@@ -1,0 +1,42 @@
+print ("Made By : Harish Alagappan Ramanathan")
+weight = float(input("Enter your weight in kgs :"))
+hight = input("What is your prefferd hight unit ?\nType f for feet and m for meters : ").lower()
+# feet
+if hight == "f" :
+  feet = input("How many feet are you ? ")
+  inch = input("How many inches are you ? ")
+  ffeet = float(feet)
+  finch = float(inch)
+  f12 = ffeet*12
+  ans = f12+finch
+  i_m = ans/39.37
+  mm = i_m**2
+  BMI = weight/mm
+  print (f"Your BMI is {round(BMI,1)}")
+# BMI feet
+  if BMI >= 25.0 and BMI < 30 :
+    print ("You are overweight")
+  elif BMI < 25.0 and BMI >= 18.5:
+    print ("You are healty")
+  elif BMI >= 30 :
+    print ("you are very overweight")
+  else :
+    print ("You are underweight")
+# meters
+elif hight == "m" :
+  met = float(input("How many meters are you ? "))
+  ex = met**2
+  B_M_I = weight/ex
+  print (f"Your BMI is {round(B_M_I,1)}")
+# BMI meters
+  if B_M_I >= 25.0 and B_M_I < 30:
+    print ("You are overweight")
+  elif B_M_I < 25.0 and B_M_I >= 18.5:
+    print ("You are healty")
+  elif B_M_I >= 30 :
+    print ("you are very overweight")
+  else :
+    print ("You are underweight")
+# invalid
+else :
+  print ("invalid")
