@@ -1,0 +1,23 @@
+1.Prompt the user "Enter your weight (in kgs)" and record weight 2. Prompt the user "What is your preferred unit of height? Type "F" for feet and "M" for meters" and record the preference 3. If user says "F" then prompt user "You will enter your height given as feet and inches. First enter feet" and record feet and then prompt user "Now enter inches" and record inches 4. If user says "M" then prompt user "What is your height in meters" and record height in meters 5. If user had chosen "F" then convert height into meters 6. Compute BMI using the following formula
+ BMI=Weight (in kgs) / Height 2(in m) 
+
+ Depending on the value of BMI, report the user's type given by the following table:
+ BMI<18.5: UNDERWEIGHT 
+ 18.5≤BMI<25: NORMAL 
+25≤BMI<30: OVERWEIGHT 
+ BMI≥30: VERY-OVERWEIGHT.
+
+2.The following code has invalid character in identifier. Rectify the error and execute the code to print
+the message “Success”
+my-message =” Success”
+print(my-message)
+
+3. Write a code that inputs two int values and prints it in same line separated by ‘#’
+
+4.Samrat distributes C chocolates to classroom with N students everyday.The C chocolates are
+distributed among N students equally and remaining chocolates are given back to Samrat.Write code
+to implement the same.
+Ex. If C=100,N=40,remaining chocolates are 20.
+If C=205,N=20,remaining are 5.
+
+5.Develop python program that accepts five subject marks of a student from user separated by spaces. Calculate and Print sum and average of the marks entered.
