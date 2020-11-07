@@ -1,0 +1,41 @@
+weight = float(input("Enter your weight in kgs"))
+unit = float(input("What is your preferred unit of height?")).lower()
+
+
+if unit=="f" :
+  
+      print("You will enter your height given as feet and inches")
+feet = float(input("First enter feet"))
+inches = float(input("now enter inches"))
+inches1 =feet*12
+height= round(inches1 *2.54,1)
+
+#calc
+bmi = weight/(height**2)
+print("Your BMI is, {round(bmi,1)}")
+
+#BMI feet
+  if (bmi >= 25 and bmi < 30):
+    print ("You are overweight")
+  elif (bmi <= 18.5 and bmi < 25):
+    print ("You are normal")
+  elif (bmi >= 30 ):
+    print ("you are very-overweight")
+  elif (bmi<18.5):
+    print ("You are underweight")
+
+elif unit=="m" :
+height=float(input("What is your height in meters"))
+#calc
+bmi = weight/(height**2)
+print("Your BMI is, {round(bmi,1)}")
+
+#BMI feet
+  if (bmi >= 25 and bmi < 30):
+    print ("You are overweight")
+  elif (bmi <= 18.5 and bmi < 25):
+    print ("You are normal")
+  elif (bmi >= 30 ):
+    print ("you are very-overweight")
+  elif (bmi<18.5):
+    print ("You are underweight")
