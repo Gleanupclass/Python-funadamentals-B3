@@ -1,0 +1,4 @@
+noc=float(input("No of chocalates"))
+nos=float(input("no of students"))
+rc=noc-nos
+print("Remaining chocolate is:",rc)
