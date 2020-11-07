@@ -1,0 +1,3 @@
+x=input("input the value of X")
+y=input("input the value of y")
+print("the value of X & Y are:" ,x,y, sep='#')
