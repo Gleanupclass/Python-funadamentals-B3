@@ -1,0 +1,13 @@
+count=0
+sum=0
+while True:
+  user_input=input("Enter a number ")
+  if user_input=='end': break
+  userinput=int(user_input)
+
+  sum= sum + userinput
+  count=count + 1
+  average=sum/count
+print("sum is",sum)
+print("count is",count)
+print("avg is",average)
