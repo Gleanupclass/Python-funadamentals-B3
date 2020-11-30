@@ -1,0 +1,19 @@
+1)Write code to check if the text passed contains following punctuation symbols: commas, periods, colons, semicolons, question marks, and exclamation points.
+
+2)The repeat_character() function checks if the text passed includes the letter "a" (lowercase or uppercase)atleast twice,where repeat_character("papaya") is True but repeat_character("mango") is False. Write code to make this work.
+
+3)Create function named valid_time()that checks the time format of a 12-hour clock is valid or not.valid time is given as follows: the hour followed by a colon, then minutes,then an optional space, and then AM or PM, in upper or lower case. 
+
+4)Create function named valid_webaddress()that checks if the text passed qualifies as a top-level web address followed by a period and a  top level domain such as ".com", ".info", ".in",".org", etc. [www.gmail.com-true,www@gmail-False]
+
+5)Allen and Solley made a list of songs and both of them voted if they like or dislike the song. They wrote
+0 to denote dislike and 1 to denote like. The task is to count the number of songs that both of them like
+or dislike as same.
+Input: allen = “010101” solley = “101101”
+Output: 3
+allen and solley both like 4th and 6th topics and dislike the 5th topic. Hence, the output is 3.
+Input: allen = “111111” solley = “00 0000”
+Output: 0
+There are no common likes or dislikes between allen and solley. Hence, the output is 0.
+Input: allen = “110000” solley = “110011”
+Output: 4
