@@ -1,0 +1,12 @@
+##First to check spl characters
+import re
+
+def check_splcharacters(test):
+  string_check=re.compile('[!#$%^&*()<>?/\|{}]')
+  if(string_check.search(test)==None):
+    print("String does not contain spl chars")
+  else:
+    print("String contain spl chars")
+
+test="Code^&%$Speedy"
+check_splcharacters(test)
