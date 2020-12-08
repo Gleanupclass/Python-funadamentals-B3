@@ -1,0 +1,15 @@
+1) Write a Python program to create a lambda function that adds 15 to a given number passed in as an argument, also create a lambda function that multiplies argument x with argument y and print the result.
+
+2)Certain space separated numbers are passed as input to program.Write python code to find maximum number and store it in maxnum which is printed as output.
+
+3) Define a function filterVowels that checks if a letter is a vowel or not.It filters and prints vowels alone from string.
+
+4)Write a program that reads a list ‘list1’ and a number ‘n’. Output should display elements in list1 that are lesser than number ‘n’. Also display the count of no. of elements that are lesser than number ‘n’.
+
+5)Consider a given string and write the code for the following
+wood = “How much wood would a woodchuck chuck if a woodchuck could chuck wood?”
+i. Display the string in list format.
+ii. List the words that contains ‘wo’.
+iii. List of words that contains more than 5 characters.
+iv. List of words that contains more than 5 characters and end with “ck”.
+v. List the words that contains ‘wo’ in uppercase
