@@ -1,0 +1,1 @@
+Develop python application that reads text from an input file,reads the phone number from the text and Converts that 10 digit phone number to US format using Regex.Write the converted phone number in output file.
